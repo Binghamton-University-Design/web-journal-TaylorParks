@@ -25,6 +25,10 @@ div.red {
 	background: red;
 }
 
+div.blue {
+	background: blue;
+}
+
 div#top {
 	background:green;
 }
