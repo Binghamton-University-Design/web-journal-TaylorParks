@@ -1,12 +1,19 @@
 /*stylesheet*/
 
 body {
-	margin: 0;	
-	background: black;
+	margin: 0;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100, 500;
 
-	font-weight: 500;
+}
+
+header {
+	margin: 0;
+	background: lightgrey;
+	color: black;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 200, 300, 400, 500, 600, 700, 800;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -14,90 +21,83 @@ h1, h2, h3, h4, h5, p {
 	margin-bottom: 1em;
 }
 
-h1, h2 {
+h1 {
+	font-family: Roboto;
 	font-weight:500;
 }
 
+p {
+	font-family: Mukta;
+	font-weight: 600;
+}
+
 #wrapper {
-	margin:2em auto;
+	margin: 1em auto;
 	max-width: 1200px;
 }
 
 #main {
-	background: grey;
+	background: pink;
 	margin: 1em;
 	padding: 1em;
 }
 
-#sidebar {
-	padding: 1em;
+#header {
 	background: lightgrey;
+	
 }
 
-#logo {
-	padding: 3em 0;
+#header p {
+	color: black;
+	text-align: center;
+	border: 3px solid black;
+}
+
+#linkbar {
+	background-image: url(../images/forest1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
 }
 
 #logo h1 {
-	margin: 1em
-}
-
-#logo img, .item img {
-	width: 100%;
-	height: auto;
-
-
-}
-
-.item img {
-	margin-bottom: 2em;
-}
-
-.item h1 {
-	color: grey;
+	color: black;
 	text-align: center;
-}
-
-.item p {
-	color: grey;
-	text-align: center;
-	margin :1em;
-}
-
-#content {
-	background: pink;
-	padding: 1em;
-}
-
-#wrapper1 {
-	margin:2em auto;
-	max-width: 1200px;
-}
-
-#main1 {
-	background: grey;
+	padding: 2em 2em;
 	margin: 1em;
-	padding: 1em;
 }
 
-#project img, .item img {
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
 	width: 100%;
-	height: auto;
+	height: 50px;
 }
 
-@media (max-width: 699px) {
-	#wrapper {
-		margin: 0em auto;
-	}
-
-	#main{
-		margin: 1em;
-		padding: 0em;
-	}
-
-#logo {
-	text-align: center;
-	padding
+ul {
+	margin-left: 60px;
 }
 
+ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 50px;
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Roboto;
+	color: #1e1e1e;
+	padding: 0 20px;
+
+}
+
+ul li a:hover {
+	color: red;
 }
