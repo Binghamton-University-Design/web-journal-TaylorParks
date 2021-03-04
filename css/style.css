@@ -2,6 +2,10 @@
 
 body {
 	margin: 0;
+	background-image: url(../images/clounds.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100, 500;
@@ -54,14 +58,14 @@ p {
 }
 
 #linkbar {
-	background-image: url(../images/forest1.jpg);
+	background-image: url(../images/girlanddog.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 50px;
+	padding: 100px;
 }
 
 #logo h1 {
-	color: black;
+	color: white;
 	text-align: center;
 	padding: 2em 2em;
 	margin: 1em;
@@ -89,6 +93,7 @@ ul li {
 }
 
 ul li a {
+	transition: all .3s ease-in;
 	display: block;
 	text-decoration: none;
 	font-size: 20px;
