@@ -71,6 +71,11 @@ p {
 	margin: 1em;
 }
 
+#logo img{
+	width: 100%;
+	height: auto;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -105,4 +110,72 @@ ul li a {
 
 ul li a:hover {
 	color: red;
+}
+
+
+
+
+#wrapper1 {
+	margin: 1em auto;
+	max-width: 1200px;
+}
+
+#project1header {
+	background: pink;
+	margin: 3em;
+	padding: 3em;
+}
+
+#project1 h2, p {
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 1em;
+}
+
+#content1 img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+#wrapper2 {
+	margin: 1em auto;
+	max-width: 1200px;
+}
+
+#project2header {
+	background: pink;
+	margin: 2em;
+	padding: 2em;
+}
+
+#project2 h2, p {
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 1em;
+}
+
+
+
+
+#wrapper3 {
+	margin: 1em auto;
+	max-width: 1200px;
+}
+
+#project3header {
+	background: pink;
+	margin: 1em;
+	padding: 1em;
+}
+
+#project3 h2, p {
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 1em;
 }
