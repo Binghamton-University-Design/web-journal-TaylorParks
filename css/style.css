@@ -36,6 +36,7 @@ h1 {
 	font-family: 'Noto Serif JP', serif;
 	font-weight: 500;
 	text-align: center;
+	color: rgba(128, 29, 66);
 }
 
 h2 {
@@ -108,7 +109,7 @@ nav {
 }
 
 ul {
-	margin-left: 0;
+	margin-left: 4em;
 }
 
 ul li {
@@ -124,13 +125,13 @@ ul li a {
 	text-decoration: none;
 	font-size: 20px;
 	font-family: Roboto;
-	color: #1e1e1e;
+	color: rgb(128, 29, 66);
 	padding: 0 20px;
 
 }
 
 ul li a:hover {
-	color: red;
+	color: white;
 }
 
 
@@ -185,6 +186,7 @@ ul li a:hover {
 	font-weight: 900;
 	color: white;
 	text-align: center;
+	margin: 2em;
 }
 
 .project2comment h4 {
@@ -201,6 +203,7 @@ ul li a:hover {
 	color: white;
 	text-align: left;
 	margin-left: 4em;
+	margin-right: 4em;
 }
 
 .item2 {
@@ -211,7 +214,7 @@ ul li a:hover {
 	margin-right: 1em;
 }
 
-#project2 .item2 h2, p {
+.item2 h2, p {
 	color: white;
 	text-align: center;
 	flex: 
@@ -220,23 +223,21 @@ ul li a:hover {
 }
 
 #project2 .footer2 {
-	/*
 	background: rgba(0, 0, 0, 0.5);
-	*/
-	position: absolute;
-	background: green;
-	bottom: 0;
-	height: 100px;
-	width: 100px;
+	object-position: bottom;
 	margin-left: 1em;
 	margin-right: 1em;
-
+	margin-top: 58em;
+	display: flex;
+	align-items: center;
+	width: relative;
+	height: 400px;
 }
-
 
 #exquisite {
 	position: relative;
 	margin-bottom: 2em;
+	margin-top: 5em;
 }
 
 #exquisite .exquisitewrapper {
