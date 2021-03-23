@@ -33,8 +33,15 @@ h1, h2, h3, h4, h5, p {
 }
 
 h1 {
-	font-family: Roboto;
-	font-weight:500;
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 700;
+	text-align: center;
 }
 
 p {
@@ -135,7 +142,7 @@ ul li a:hover {
 }
 
 #project1header {
-	background: pink;
+	background: rgba(128, 29, 66);
 	margin: 3em;
 	padding: 3em;
 }
@@ -153,27 +160,100 @@ ul li a:hover {
 }
 
 
-
+/*Project 2*/
 
 #wrapper2 {
+	height: auto;
 	margin: 1em auto;
 	max-width: 1200px;
 }
 
 #project2header {
-	background: pink;
+	background: rgba(128, 29, 66);
+	height: 1500px;
 	margin: 2em;
 	padding: 2em;
 }
 
-#project2 h2, p {
+#project2 {
+	width: 100%;
+	height: 1100px;
+}
+
+.project2comment h3 {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 900;
 	color: white;
 	text-align: center;
-	padding: 0;
-	margin: 1em;
+}
+
+.project2comment h4 {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 900;
+	color: white;
+	text-align: left;
+	margin-left: 4em;
+}
+
+.project2comment h5 {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 800;
+	color: white;
+	text-align: left;
+	margin-left: 4em;
+}
+
+.item2 {
+	background: rgba(0, 0, 0, 0.5);
+	width: relative;
+	height: 100px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#project2 .item2 h2, p {
+	color: white;
+	text-align: center;
+	flex: 
+	padding: 1em;
+	margin: 2em;
+}
+
+#project2 .footer2 {
+	/*
+	background: rgba(0, 0, 0, 0.5);
+	*/
+	position: absolute;
+	background: green;
+	bottom: 0;
+	height: 100px;
+	width: 100px;
+	margin-left: 1em;
+	margin-right: 1em;
+
 }
 
 
+#exquisite {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+#exquisite .exquisitewrapper {
+	width: 100%;
+	height: auto;
+}
+
+#exquisite .grid {
+	grid-gap: 0;
+}
+
+#exquisite .grid img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0;
+}
 
 
 #wrapper3 {
@@ -234,20 +314,5 @@ ul li a:hover {
 
 #projects .grid-item .overlay .project-title h3 {
 	margin-bottom: 0;
-}
-
-#exquisite {
-	position: relative;
-	margin-bottom: 2em;
-}
-
-#exquisite .grid {
-	grid-gap: 0;
-}
-
-#exquisite .grid img {
-	display: block;
-	width: 100%;
-	height: auto;
-	margin-bottom: 0;
+	text-align: center;
 }
