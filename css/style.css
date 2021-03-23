@@ -171,7 +171,7 @@ ul li a:hover {
 
 #project2header {
 	background: rgba(128, 29, 66);
-	height: 1500px;
+	height: 1800px;
 	margin: 2em;
 	padding: 2em;
 }
@@ -227,7 +227,7 @@ ul li a:hover {
 	object-position: bottom;
 	margin-left: 1em;
 	margin-right: 1em;
-	margin-top: 58em;
+	margin-top: 75em;
 	display: flex;
 	align-items: center;
 	width: relative;
