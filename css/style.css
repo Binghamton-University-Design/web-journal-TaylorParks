@@ -50,6 +50,12 @@ p {
 	font-weight: 600;
 }
 
+@media (max-width: 699px) {
+	#wrapper1 {
+		margin: 0em auto;
+	}
+}
+
 #wrapper {
 	margin: 1em auto;
 	max-width: 1200px;
@@ -134,7 +140,13 @@ ul li a:hover {
 	color: white;
 }
 
+/*Project 1*/
 
+@media (max-width: 699px) {
+	#wrapper1 {
+		margin: 0em auto;
+	}
+}
 
 
 #wrapper1 {
@@ -162,6 +174,12 @@ ul li a:hover {
 
 
 /*Project 2*/
+
+@media (max-width: 699px) {
+	#wrapper2 {
+		margin: 0em auto;
+	}
+}
 
 #wrapper2 {
 	height: auto;
@@ -254,6 +272,7 @@ ul li a:hover {
 	width: 100%;
 	height: auto;
 	margin-bottom: 0;
+	background-size: contain;
 }
 
 
