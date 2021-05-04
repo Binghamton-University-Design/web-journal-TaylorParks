@@ -196,7 +196,7 @@ ul li a:hover {
 
 #project2 {
 	width: 100%;
-	height: 1100px;
+	height: 60%;
 }
 
 .project2comment h3 {
@@ -292,6 +292,156 @@ ul li a:hover {
 	padding: 0;
 	margin: 1em;
 }
+
+/* Old Button 
+.container3 {
+	position: relative;
+	width: 100%;
+	max-width: 
+}
+
+.container3 img {
+	width: 100%;
+	height: auto;
+}
+
+.container .button3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.container .button3:hover {
+	background-color: black;
+}
+
+Old Button */
+
+.wrapper-explore3 {
+	margin: 1em auto;
+	max-width: 1200px;
+}
+
+.explore3 {
+	background: pink;
+	margin: 1em;
+	padding: 1em;
+}
+
+.header-explore3 {
+	background: lightgrey;
+	
+}
+
+.header-explore3 p{
+	color: black;
+	text-align: center;
+	border: 3px solid black;
+}
+
+.header-explore3 .button3-container img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+.button3 {
+	z-index: 1;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	padding: 15px 25px;
+  	text-align: center;
+  	cursor: pointer;
+  	outline: none;
+  	color: #fff;
+  	background-color: #36384c;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+
+.button3:hover {
+	background-color: #f36f63;
+}
+
+.button3:active {
+  	background-color: #f7e1dc;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+/*
+.button3-container {
+  	position: relative;
+  	width: 100%;
+  	max-width: 400px;
+}
+
+/* Make the image responsive */
+/*
+.button3-container img {
+ 	 width: 100%;
+ 	 height: auto;
+ 	 display: block;
+}
+
+.button3-container{
+	position: relative;
+}
+
+/* Style the button and place it in the middle of the container/image */
+/*
+.button3-container .button3 {
+  	position: absolute;
+  	z-index: 1;
+  	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	-ms-transform: translate(-50%, -50%);
+ 	background-color: #36384c;
+  	color: #f7e1dc;
+  	font-size: 16px;
+  	padding: 12px 24px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+.button3 {
+	z-index: 1;
+  	padding: 15px 25px;
+  	font-size: 24px;
+  	text-align: center;
+  	cursor: pointer;
+  	outline: none;
+  	color: #fff;
+  	background-color: #36384c;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+
+.button3:hover {background-color: #f36f63
+}
+
+.button3:active {
+  	background-color: #f7e1dc;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+*/
 
 .item {
 	width: 100%;
