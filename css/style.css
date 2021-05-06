@@ -349,17 +349,27 @@ Old Button */
 	border: 3px solid black;
 }
 
+.button3-container {
+  	position: relative;
+}
+
 .header-explore3 .button3-container img {
 	position: absolute;
 	width: 100%;
 	height: auto;
 }
 
-.button3 {
+.button3-holder {
 	z-index: 1;
 	position: absolute;
-  	top: 50%;
-  	left: 50%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button3 {
   	padding: 15px 25px;
   	text-align: center;
   	cursor: pointer;
